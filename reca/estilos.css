@@ -1,0 +1,77 @@
+@font-face { font-family: "Open Sans"; src: url("https://fonts.gstatic.com/s/opensans/v29/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2") format("woff2"); }
+@font-face { font-family: "Roboto"; src: url("https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2") format("woff2");}
+
+body{
+    margin: 0;
+    background: #ddd;
+    font-family: "Roboto";
+}
+
+h1, h2{
+    font-family: 'Open Sans';
+}
+header{
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    padding: 20px 5%;
+    background: white;
+    border: 1px solid white;
+}
+
+form div{
+    margin-bottom: 6px;
+    display: flex;
+}
+
+form div span{
+    width: 200px;
+}
+
+form div span + *{
+    flex: 1;
+    padding: 6px;
+    outline: none;
+    border: 1px solid #AAA;
+}
+
+form div.botones{
+    justify-content: flex-end;
+}
+
+form div.botones button{
+    padding: 9px 20px;
+    background: #749379;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form div.botones button:hover{
+    background: #6A836C;
+}
+
+form div.botones button:disabled,
+form div.botones button[disabled]{
+    filter: grayscale(1);
+    cursor: default;
+}
+
+.error{
+    color: darkred;
+}
+.ok{
+    color: darkgreen;
+}
+
+
+
+
+
+

@@ -6,7 +6,7 @@ include('../app/config.php');
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 3 | Log in</title>
+    <title>Apparcamiento</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,7 +20,19 @@ include('../app/config.php');
     <link rel="stylesheet" href="<?php echo $URL;?>/app/templeates/AdminLTE-3.0.5/dist/css/adminlte.min.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../pagina/css/jquery.cslider.css" />
+    <link rel="stylesheet" type="text/css" href="../pagina/css/jquery.bxslider.css" />
+    <link rel="stylesheet" type="text/css" href="../pagina/css/animate.css" />
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../pagina/images/ico/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../pagina/images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../pagina/images/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="../pagina/images/ico/apple-touch-icon-57.png">
+    <link rel="shortcut icon" href="./pagina/images/ico/favicon.ico">
 </head>
+
+<body>
+   
 <body class="hold-transition login-page">
 
 <center>
@@ -36,6 +48,7 @@ include('../app/config.php');
             <p class="login-box-msg">Inicio de sesión</p>
 
             <form action="controller_login.php" method="post">
+                
                 <input type="text" name="form_login" value="form_login" hidden>
                 <div class="input-group mb-3">
                     <input type="email" name="usuario" class="form-control" placeholder="Email">

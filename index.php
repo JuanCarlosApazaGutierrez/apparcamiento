@@ -1,3 +1,4 @@
+
 <?php
 
 if (!empty($_POST)) {
@@ -26,341 +27,472 @@ if (!empty($_POST)) {
 ?>
 
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-
-  <title>Apparcamiento</title>
-
-
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-  <!-- nice selecy -->
-  <link rel="stylesheet" href="css/nice-select.min.css">
-
-  <!--owl slider stylesheet -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
-
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apparcamiento</title>
+    <!-- Load Roboto font -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet'
+        type='text/css'>
+    <!-- Load css styles -->
+    <link rel="stylesheet" type="text/css" href="./pagina/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="./pagina/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="./pagina/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./pagina/css/pluton.css" />
+    <!--[if IE 7]>
+            <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
+        <![endif]-->
+    <link rel="stylesheet" type="text/css" href="./pagina/css/jquery.cslider.css" />
+    <link rel="stylesheet" type="text/css" href="./pagina/css/jquery.bxslider.css" />
+    <link rel="stylesheet" type="text/css" href="./pagina/css/animate.css" />
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./pagina/images/ico/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./pagina/images/ico/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./pagina/images/apple-touch-icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="./pagina/images/ico/apple-touch-icon-57.png">
+    <link rel="shortcut icon" href="./pagina/images/ico/favicon.ico">
 </head>
 
 <body>
-
-  <div class="hero_area">
-    <div class="bg-box">
-    
-    </div>
-    <!-- header section strats -->
-    <header class="header_section">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-        <a class="navbar-brand" href="index.php">
-            <img src="images/logo.png" height="70"> 
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class=""> </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-          <ul class="navbar-nav  ">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.php"><h5>Inicio</h5> <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html"><h5>Que es</h5></a>
-              </li>
-          
-              <li class="nav-item">
-                <a class="nav-link" href="why.html"><h5>Beneficios</h5></a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="solicitud.php"><h5>Solicitud de registro</h5></a>
-              </li>
-              
-              
-              <li class="nav-item">
-                <a class="nav-link"  data-toggle="modal" data-target="#exampleModal">
-                  <h5>Ingresar</h5></a>
-              </a>
-              </li>
-            </ul>
-
-            
-          </div>
-        </nav>
-      </div>
-    </header>
-    <!-- end header section -->
-    <!-- slider section -->
-    <section class="slider_section ">
-      <div class="container">
-        <div class="detail-box col-md-9 mx-auto px-0">
-          <h1>
-            La forma de encontrar parqueo 
-            FACIL
-          </h1>
-          <p>
-            Pone a su disposición toda la información de parqueos o estacionamientos públicos disponibles.
-            ¡Ahora con Apparcamiento estacionarte es fácil! Descarga nuestra aplicación móvil.
-          </p>
-        </div>
-        <center><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15302.16256420873!2d-68.1381346686603!3d-16.49878155562473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparqueos%20en%20la%20paz!5e0!3m2!1ses!2sbo!4v1681131411285!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </center>
-           
-          </form>
-        </div>
-      </div>
-    </section>
-    <!-- end slider section -->
-  </div>
-
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container  ">
-      <div class="heading_container ">
-        <h2>
-          ¿Qué es Apparcamiento?
-        </h2>
-        <p>
-          Apparcamiento es un emprendimiento en Bolivia. EL objetivo es cubrir las necesidades de búsqueda de estacionamientos vehiculares en el país.
-
-           nace como sistema de informacion de estacionamientos vehiculares en la ciudad de La Paz y ciudades próximas como la ciudad de El Alto, se pretende en un futuro cercano llegar a más ciudades de Bolivia.
-          
-          ¡Estacionarte ya no será un problema!</p>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 ">
-          <div class="img-box">
-            <img src="images/about-img.jpg" alt="">
-          </div>
-        </div>
-        <br>
-        <section> 
-      <br>
-         
-      </section>
-        
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
- 
-  <!-- why section -->
-
-  <section class="why_section layout_padding-bottom">
-    <div class="container">
-      <div class="col-md-10 px-0">
-        <div class="heading_container">
-
-         
-      
-          <h2>
-            ¿Conoce o Tiene un Parqueo?
-          </h2>
-          <p>
-            Regístralo gratis, promociona y optimiza la informacion del estacionamiento. Puede ayudar a muchas personas a encontrar un estacionamiento en la ciudad.
-            
-          </p>
-        </div>
-      </div>
-
-      <div class="detail-box">
-        <h3>
-          Beneficios al unirte 
-        </h3>
-        
-        <ul> <li>Promoción gratuita: si es operador de un parqueo,
-           tiene la posibilidad de ofrecer a sus clientes,
-            informacion actualizada y en tiempo real del parqueo,
-             de forma gratuita.</li>
-             <li>
-              Clientes satisfechos: Los conductores conocerán la
-             ubicación y diponibilidad de los parqueos en forma digital,
-              mejorando el tiempo de busqueda de estacionamientos.
-             </li>
-             <li>
-              Parqueos nuevos: Publicación de la información al 
-              instante, para atraer clientes potenciales, 
-              nuevos clientes y cubrir los lugares vacios del parqueo.
-             </li></ul>
-
-      </div>
-      <div class="row">  
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/w2.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-              reservas online  
-              </h4>
-            
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/w3.png" alt="">
-            </div>
-            <div class="detail-box">
-              <h4>
-                proceso simple de registro
-              </h4>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
- 
-  <!-- info section -->
-  <section class="info_section ">
-    <div class="container">
-      <div class="info_top ">
-        <div class="row ">
-          <div class="col-md-6 col-lg-3 info_col">
-            <div class="info_form">
-              <h4>
-                Para mas contacto
-              </h4>
-              <form action="">
-                <input type="text" placeholder="Enter Your Email" />
-                <button type="submit">
-                  enviar
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <a href="#" class="brand">
+                    <img src="images/logo.png" height="70 px" alt="Logo" />
+                    <!-- This is website logo -->
+                </a>
+                <!-- Navigation button, visible on small resolution -->
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <i class="icon-menu"></i>
                 </button>
-              </form>
-             
+                <!-- Main navigation -->
+                <div class="nav-collapse collapse pull-right container-fluid">
+                    <ul class="nav" id="top-navigation">
+                        <li class="active"><a href="#home">Inicio</a></li>
+                        <li><a href="#service">Nosotros</a></li>
+                        <li><a href="#about">Beneficios</a></li>
+                        <li><a href="#contact">Contactanos</a></li>
+                        <li><a href="#">Solicitud Registro</a></li>
+                        <!-- <li><a href="./login/index.php">Ingresar</a></li> -->
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Ingresar</b> <span class="caret"></span></a>
+                            <ul id="login-dp" class="dropdown-menu">
+                            <li>
+                              <div class="card">
+                                  <div class="col-md-auto">
+                                  Ingresar 
+                                  <form action="./login/controller_login.php" method="post"> 
+                                  <input name="form_login" value="form_login" hidden>
+                                      <div class="input-group mb-3">
+                                          <input type="email" name="usuario" class="form-control" placeholder="Email">
+                                          <div class="input-group-append">
+                                              <div class="input-group-text">
+                                                  <span class="fas fa-envelope"></span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="input-group mb-3">
+                                          <input type="password" name="password_user" class="form-control" placeholder="Password">
+                                          <div class="input-group-append">
+                                              <div class="input-group-text">
+                                                  <span class="fas fa-lock"></span>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="card">
+                                          <!-- /.col -->
+                                          <div class="col-auto">
+                                              <button type="submit" class="btn btn-black btn-block">Ingresar</button>
+                                          </div>
+                                          <!-- /.col -->
+                                      </div>
+
+                                  </form>
+                                  </div>
+                              </div>
+                            </li>
+                          </ul>    
+                      </ul>             
+                          
+                </div>
+                <!-- End main navigation -->
+                
             </div>
           </div>
-      
-          <div class="col-md-6 col-lg-3 info_col">
-           
-            <p>
-              Nuestras oficinas principales están ubicadas en La Paz,
-              Bolivia.</p>
-            <div class="contact_nav">
-              
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call : +591 78994984
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  Email : Apparcamiento@gmail.com
-                </span>
-              </a>
+      </div>
+
+
+
+    
+    <!-- Start home section -->
+    <div id="home">
+        <!-- Start cSlider -->
+        <div id="da-slider" class="da-slider">
+            <div class="triangle"></div>
+            <!-- mask elemet use for masking background image -->
+            <div class="mask"></div>
+            <!-- All slides centred in container element -->
+            <div class="container">
+                <!-- Start first slide -->
+                <div class="da-slide">
+                    <h2 class="fittext2">¿Qué es Apparcamiento?</h2>
+                    <h4>¡Estacionarte ya no será un problema!</h4>
+                    <p>Apparcamiento es un emprendimiento en Bolivia. EL objetivo es cubrir las necesidades de búsqueda de estacionamientos vehiculares en el país.
+
+                        nace como sistema de informacion de estacionamientos vehiculares en la ciudad de La Paz .
+                       
+                    </p>
+                    
+                    <div class="da-img">
+                        <img src="images/Slider01.png" alt="image01" width="320">
+                    </div>
+                </div>
+                <!-- End first slide -->
+                <!-- Start second slide -->
+                <div class="da-slide">
+                    <h2>Descarga nuestra apliacion</h2>
+                    <h4>Busca espacios de una forma mas sencilla</h4>
+                    <p>Te ofrecemos una aplicacion movil para que puedas encontrar los parqueos mas cercanos
+                        mas facil y rapido.</p>
+                    <a href="#" class="da-link button">Descargar Ahora</a>
+                    <div class="da-img">
+                        <img src="images/Slider02.png" width="320" alt="image02">
+                    </div>
+                </div>
+                <!-- End second slide -->
+                <!-- Start third slide -->
+                <div class="da-slide">
+                    <h2>Sistema de control de parqueos</h2>
+                    <h4>Tienes un parqueo afiliate</h4>
+                    <p>Te ofrecemos un sistema de control y gestion para tu parqueo solo debes registrarte y tu solicitud sera evaluada</p>
+                    <a href="#" class="da-link button">Registrate ahora</a>
+                    <div class="da-img">
+                        <img src="images/Slider03.png" width="320" alt="image03">
+                    </div>
+                </div>
+                <!-- Start third slide -->
+                <!-- Start cSlide navigation arrows -->
+                <div class="da-arrows">
+                    <span class="da-arrows-prev"></span>
+                    <span class="da-arrows-next"></span>
+                </div>
+                <!-- End cSlide navigation arrows -->
             </div>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
-  <!-- end info_section -->
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-      </p>
+    <!-- End home section -->
+    <!-- Service section start -->
+    <div class="section primary-section" id="service">
+        <div class="container">
+            <!-- Start title section -->
+            <div class="title">
+                <h1>¿Quiénes somos nosotros?</h1>
+                <!-- Section's title goes here -->
+                <p>
+                    Apparcamiento es una empresa boliviana dedicada a proporcionar soluciones de estacionamiento eficientes en La Paz 
+                    y otras ciudades cercanas. Ofrecemos un sistema de control de espacios para múltiples estacionamientos, 
+                    así como una aplicación que permite a los usuarios reservar espacios de estacionamiento y encontrarlos a través de GPS. Nos esforzamos 
+                    por utilizar tecnologías avanzadas y ofrecer un servicio de calidad para garantizar una experiencia de usuario satisfactoria.
+                     Nuestro objetivo es expandirnos a más ciudades de Bolivia en el futuro cercano para satisfacer las necesidades de estacionamiento de más personas.
+                    <br></br><b>
+                    ¡Buscar donde estacionarte ya no será un problema!</b>
+                    
+                </p>
+                <!--Simple description for section goes here. -->
+            </div>
+            <div class="row-fluid">
+                <div class="span6">
+                    <div class="highlighted-box center">
+                        <img src="images/parqueo.jpg" alt="image01" height="50">
+                    </div>
+                </div>
+                <div class="span6">
+                    <div class="highlighted-box center">
+                        <img src="images/parqueo3.jpg" alt="image01"  height="50">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </footer>
-  <!-- footer section -->
-
-  <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- popper js -->
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
-  </script>
-  <!-- nice select -->
-  <script src="js/jquery.nice-select.min.js"></script>
-  <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
-  <!-- owl slider -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-  </script>
-  <!-- custom js -->
-  <script src="js/custom.js"></script>
-
-</body>
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Inicio de Sesión</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-              </button>
-          </div>
-          <div class="modal-body">
-              <div class="row">
-                  <div class="col-md-12">
-                      <div class="form-group">
-                          <label for="">Usuario/Email</label>
-                          <input type="text" id="usuario" class="form-control">
-                      </div>
-                  </div>
-                  <div class="col-md-12">
-                      <div class="form-group">
-                          <label for="">Contraseña</label>
-                          <input type="password" id="password" class="form-control">
-                      </div>
-                  </div>
+    <!-- Service section end -->
+    
+    <!-- About us section end -->
+    <div class="section secondary-section">
+        <div class="triangle"></div>
+        <div class="container centered">
+            <p class="large-text">Que esperas registra tu parqueo ahora!!! llenando el siguiente formulario</p>
+            <a href="#" class="button">Registra tu Parqueo</a>
+        </div>
+    </div>
+    <!-- About us section start -->
+    <div class="section primary-section" id="about">
+        <div class="triangle"></div>
+        <div class="container">
+            <div class="title">
+                <h1>¿Qué beneficios te ofrecemos?</h1>
+                <p>En Apparcamiento nos esforzamos por ofrecerte soluciones de estacionamiento eficientes y de alta calidad. 
+                    Al elegir nuestro sistema de control de espacios para múltiples estacionamientos, podrás disfrutar de los siguientes beneficios:
+                    </p>
+            </div>
+            <div class="row-fluid team">
+                <div class="span4" id="first-person">
+                    <div class="thumbnail">
+                        <img src="images/Team1.png" alt="team 1">
+                        <h3>Promocion Gratuita</h3>
+                        
+                        <div class="mask">
+                            <h2>Promocion Gratuita</h2>
+                            <p>Si es operador de un parqueo, tiene la posibilidad de ofrecer a sus clientes, informacion actualizada y en tiempo real del parqueo, de forma gratuita. Ademas dicha informacion sera visible para usuarios conductores cercanos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4" id="second-person">
+                    <div class="thumbnail">
+                        <img src="images/Team2.png" alt="team 1">
+                        <h3>Clientes satisfechos</h3>
+                        
+                        <div class="mask">
+                            <h2>Clientes satisfechos</h2>
+                            <p>Los conductores conocerán la ubicación y diponibilidad de los parqueos en forma digital, mejorando el tiempo de busqueda de estacionamientos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4" id="third-person">
+                    <div class="thumbnail">
+                        <img src="images/Team3.png" alt="team 1">
+                        <h3>Ahorrar tiempo</h3>
+                        
+                        <div class="mask">
+                            <h2>Ahorrar tiempo</h2>
+                            <p>Podrás encontrar y reservar espacios de estacionamiento fácilmente a través de nuestra aplicación, lo que te ahorrará tiempo y esfuerzo en tu búsqueda de aparcamiento.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About us section end -->
+    <div class="section secondary-section">
+        <div class="triangle"></div>
+        <div class="container centered">
+            <p class="large-text">Descarga nuestra aplicacion ahora!!!</p>
+            <div class="btn-box">
+                <a href="">
+                  <img src="images/playstore.png" alt="">
+                </a>
+                <a href="">
+                  <img src="images/appstore.png" alt="">
+                </a>
               </div>
-              <div id="respuesta">
+            
+        </div>
+    </div>
+    <!-- About us section start -->
+    <!-- Client section start -->
+    <!-- Client section start -->
+    
+    <div class="section third-section">
+        <div class="container centered">
+            <div class="sub-section">
+                <div class="title clearfix">
+                    <div class="pull-left">
+                        <h3>Conoce nuestra aplicacion</h3>
+                    </div>
+                    <ul class="client-nav pull-right">
+                        <li id="client-prev"></li>
+                        <li id="client-next"></li>
+                    </ul>
+                </div>
+                <ul class="row client-slider" id="clint-slider">
+                    <li>
+                        <a href="">
+                            <img src="images/clients/ClientLogo01.png" alt="client logo 1">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/clients/ClientLogo01.png" alt="client logo 2">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/clients/ClientLogo01.png" alt="client logo 3">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/clients/ClientLogo01.png" alt="client logo 4">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/clients/ClientLogo01.png" alt="client logo 5">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/clients/ClientLogo01.png" alt="client logo 6">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="images/clients/ClientLogo01.png" alt="client logo 7">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Contact section start -->
+    <div id="contact" class="contact">
+        <div class="section secondary-section">
+            <div class="container">
+                <div class="title">
+                    <h1>Contactanos</h1>
+                    <p>Envianos un mensaje con tus dudas o opiniones y te responderemos
+                    </p>
+                </div>
+            </div>
+            <div class="map-wrapper">
+                <div class="map-canvas" id="map-canvas">Loading map...</div>
+                <div class="container">
+                    <div class="row-fluid">
+                        <div class="span5 contact-form centered">
+                            <h3>Envianos tu mensaje</h3>
+                            <div id="successSend" class="alert alert-success invisible">
+                                <strong>Well done!</strong>Your message has been sent.
+                            </div>
+                            <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
+                            <form id="contact-form" action="php/mail.php">
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <input class="span12" type="text" id="name" name="name"
+                                            placeholder="* Ingresa tu nombre..." />
+                                        <div class="error left-align" id="err-name">Ingresa tu nombre</div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <input class="span12" type="email" name="email" id="email"
+                                            placeholder="* Ingresa tu correo..." />
+                                        <div class="error left-align" id="err-email">Ingresa tu correo
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <textarea class="span12" name="comment" id="comment"
+                                            placeholder="* Ingresa tu comentario..."></textarea>
+                                        <div class="error left-align" id="err-comment">Ingresa tu comentario</div>
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <button id="send-mail" class="message-btn">Enviar mensaje</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="span9 center contact-info">
+                    <p>
+                        Nuestras oficinas principales están ubicadas en La Paz,
+                        Bolivia.</p>
+                      <div class="contact_nav">
+                        
+                        <a href="">
+                          <i class="fa fa-phone" aria-hidden="true"></i>
+                          <span>
+                            Call : +591 78994984
+                          </span>
+                        </a>
+                        <a href="">
+                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                          <span>
+                            Email : Apparcamiento@gmail.com
+                          </span>
+                        </a>
+                      </div>
+                </div>
+                <div class="row-fluid centered">
+                    <ul class="social">
+                        <li>
+                            <a href="">
+                                <span class="icon-facebook-circled"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="icon-twitter-circled"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="icon-linkedin-circled"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="icon-pinterest-circled"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="icon-dribbble-circled"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <span class="icon-gplus-circled"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact section edn -->
+    <!-- Footer section start -->
+    <div class="footer">
+        <p>&copy; 2013 Theme by <a href="http://www.graphberry.com">GraphBerry</a>, <a
+                href="http://goo.gl/NM84K2">Documentation</a></p>
+    </div>
+    <!-- Footer section end -->
+    <!-- ScrollUp button start -->
+    <div class="scrollup">
+        <a href="#">
+            <i class="icon-up-open"></i>
+        </a>
+    </div>
+    <!-- ScrollUp button end -->
+    <!-- Include javascript -->
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/jquery.cslider.js"></script>
+    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.js"></script>
+    <!-- Load google maps api and call initializeMap function defined in app.js -->
+    <script async="" defer="" type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
+    <!-- css3-mediaqueries.js for IE8 or older -->
+    <!--[if lt IE 9]>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+    <script type="text/javascript" src="js/app.js">
 
-              </div>
-          </div>
-          <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-              <!-- <button type="button" class="btn btn-primary" id="btn_ingresar">Ingresar</button> -->
-              <button type="button" name="login" class="btn btn-primary g-recaptcha" 
-                data-sitekey="6LfjtrslAAAAAA7a0QtyqhfKfTjBrlikjPuuCGze" 
-                data-callback='onSubmit' 
-                data-action='submit' id="btn_ingresar">Ingresar</button>
-          </div>
-      </div>
-  </div>
-</div>
 
 
-<script>
   $('#btn_ingresar').click(function () {
       login();
   });

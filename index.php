@@ -42,6 +42,7 @@ if (!empty($_POST)) {
     <link rel="stylesheet" type="text/css" href="./pagina/css/bootstrap-responsive.css" />
     <link rel="stylesheet" type="text/css" href="./pagina/css/style.css" />
     <link rel="stylesheet" type="text/css" href="./pagina/css/pluton.css" />
+    <link rel="stylesheet" type="text/css" href="./dilogin/dic.css" />
     <!--[if IE 7]>
             <link rel="stylesheet" type="text/css" href="css/pluton-ie7.css" />
         <![endif]-->
@@ -75,59 +76,70 @@ if (!empty($_POST)) {
                         <li><a href="#service">Nosotros</a></li>
                         <li><a href="#about">Beneficios</a></li>
                         <li><a href="#contact">Contactanos</a></li>
-                        <li><a href="#">Solicitud Registro</a></li>
+                        <li><a href="#contact">Solicitud Registro</a></li>
                         <!-- <li><a href="./login/index.php">Ingresar</a></li> -->
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="dropdown">
+                        
+                            <li class="form-structor">
+                                
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Ingresar</b> <span class="caret"></span></a>
+
                             <ul id="login-dp" class="dropdown-menu">
                             <li>
-                              <div class="card">
-                                  <div class="col-md-auto">
-                                  Ingresar 
+                            <!-- <button class="submit-btn">Log in</button>
+                            <button type="submit" href="./login/index.php" class="registrate">Registrate </button>      -->
+
+                            <div class="wrapper fadeInDown">
+                              <div id="formContent">
+                              <h2 class="active">Iniciar Sesion</h2>
+                                 <div class="fadeIn first">
+                                    <img src="./images\ico\favicon.ico" id="icon" alt="User Icon" />
+                                    </div>
+                                    <br>
+                              
                                   <form action="./login/controller_login.php" method="post"> 
                                   <input name="form_login" value="form_login" hidden>
-                                      <div class="input-group mb-3">
-                                          <input type="email" name="usuario" class="form-control" placeholder="Email">
+                                    <!-- <div class="row justify-content-auto"> -->
+                                    <div class="form-group mx-2">
+                                          <input type="email" name="usuario" class="fadeIn second" placeholder="usuario">
                                           <div class="input-group-append">
                                               <div class="input-group-text">
                                                   <span class="fas fa-envelope"></span>
                                               </div>
-                                          </div>
+                                            </div>
                                       </div>
-                                      <div class="input-group mb-3">
-                                          <input type="password" name="password_user" class="form-control" placeholder="Password">
+
+                                      <!-- comttra -->
+                                      <div class="form-group mx-2">
+                                          <input type="password" name="password_user" class="fadeIn third" placeholder="contraseña">
                                           <div class="input-group-append">
                                               <div class="input-group-text">
                                                   <span class="fas fa-lock"></span>
                                               </div>
                                           </div>
                                       </div>
-                                      <div class="card">
-                                          <!-- /.col -->
-                                          <div class="col-auto">
-                                              <button type="submit" class="btn btn-black btn-block">Ingresar</button>
-                                          </div>
-                                          <!-- /.col -->
-                                      </div>
 
+                                         <div class="fadeIn fourth">
+                                         <input  type="submit" class="fadeIn fourth">Ingresar</input>
+                                                                  
+                                         </div>
+                                         <br>
+                                             
+                                    </div>
                                   </form>
                                   </div>
                               </div>
                             </li>
-                          </ul>    
+
+                          </ul> 
                       </ul>             
-                          
+                      </div>
                 </div>
                 <!-- End main navigation -->
                 
             </div>
           </div>
       </div>
-
-
-
-    
     <!-- Start home section -->
     <div id="home">
         <!-- Start cSlider -->
@@ -363,13 +375,13 @@ if (!empty($_POST)) {
                             <div id="successSend" class="alert alert-success invisible">
                                 <strong>Well done!</strong>Your message has been sent.
                             </div>
-                            <div id="errorSend" class="alert alert-error invisible">There was an error.</div>
+                            <div id="errorSend" class="alert alert-error invisible">error.</div>
                             <form id="contact-form" action="php/mail.php">
                                 <div class="control-group">
                                     <div class="controls">
                                         <input class="span12" type="text" id="name" name="name"
                                             placeholder="* Ingresa tu nombre..." />
-                                        <div class="error left-align" id="err-name">Ingresa tu nombre</div>
+                                        <div class="error left-align" id="err-name">Solicita tu registro</div>
                                     </div>
                                 </div>
                                 <div class="control-group">
@@ -399,21 +411,23 @@ if (!empty($_POST)) {
             </div>
             <div class="container">
                 <div class="span9 center contact-info">
+<<<<<<< HEAD
                     <h3>
                         Nuestras oficinas principales están ubicadas en La Paz,
                         Bolivia.</h3>
+=======
+                    <p>Nuestras oficinas principales están ubicadas en La Paz, Bolivia.</p>
+>>>>>>> 8174e6c875231d6da358cbd746eacd1eb42afb8a
                       <div class="contact_nav">
                         
                         <a href="">
                           <i class="fa fa-phone" aria-hidden="true"></i>
-                          <span>
-                            Call : +591 78994984
-                          </span>
+                          <span>Celular : +591 78994984       </span>
                         </a>
                         <a href="">
                           <i class="fa fa-envelope" aria-hidden="true"></i>
                           <span>
-                            Email : Apparcamiento@gmail.com
+                            Correo : Apparcamiento@gmail.com
                           </span>
                         </a>
                       </div>
@@ -459,8 +473,12 @@ if (!empty($_POST)) {
     <!-- Contact section edn -->
     <!-- Footer section start -->
     <div class="footer">
+<<<<<<< HEAD
         <p>&copy; 2023 Proyecto en desarrollo <a href="">Apparcamiento</a>, <a
                 href="">Documentacion</a></p>
+=======
+        <p>2023</p>
+>>>>>>> 8174e6c875231d6da358cbd746eacd1eb42afb8a
     </div>
     <!-- Footer section end -->
     <!-- ScrollUp button start -->
@@ -481,11 +499,16 @@ if (!empty($_POST)) {
     <script type="text/javascript" src="js/jquery.inview.js"></script>
     <!-- Load google maps api and call initializeMap function defined in app.js -->
     <script async="" defer="" type="text/javascript"
+<<<<<<< HEAD
         <!-- src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script> -->
+=======
+    src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
+        
+>>>>>>> 8174e6c875231d6da358cbd746eacd1eb42afb8a
     <!-- css3-mediaqueries.js for IE8 or older -->
-    <!--[if lt IE 9]>
-            <script src="js/respond.min.js"></script>
-        <![endif]-->
+    <!-- [if lt IE 9] -->
+            <!-- <script src="js/respond.min.js"></script> -->
+        <!-- <![endif] -->
     <script type="text/javascript" src="js/app.js">
 
 
@@ -499,6 +522,8 @@ if (!empty($_POST)) {
           login();
       }
   });
+
+
 
   function login() {
       var usuario = $('#usuario').val();

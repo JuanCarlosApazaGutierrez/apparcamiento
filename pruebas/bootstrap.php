@@ -17,7 +17,7 @@
                 <label for="inputPassword5" class="form-label">Password</label>
                 <input type="number" id="inputPassword5" class="form-control"
                        aria-describedby="passwordHelpBlock" required>
-                <button type="submit">enviar</button>
+                <button type="submit">ingresar</button>
             </form>
         </div>
     </div>

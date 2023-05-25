@@ -9,14 +9,7 @@
 
     <!-- SEARCH FORM -->
     <form class="form-inline ml-3">
-        <div class="input-group input-group-sm">
-            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-            <div class="input-group-append">
-                <button class="btn btn-navbar" type="submit">
-                    <i class="fas fa-search"></i>
-                </button>
-            </div>
-        </div>
+        
     </form>
     <ul class="navbar-nav ml-auto">
       <!-- Messages Dropdown Menu -->
@@ -72,11 +65,15 @@
     <div class="sidebar">
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-            <div class="image">
-                <img src="<?php echo $URL;?>/public/imagenes/icono_usuario.png" class="img-circle elevation-2" alt="User Image">
-            </div>
+        <div class="image" style="text-align: center;">
+    <img src="<?php echo $URL;?>/public/imagenes/icono_usuario.png" class="img-circle elevation-2" alt="User Image">
+    <p style="color: red;">ONLINE</p>
+</div>
+
             <div class="info">
                 <a href="#" class="d-block"><?php echo $nombres_sesion; ?></a>
+                <p style="color: white;">Administrador</p>
+
             </div>
         </div>
 

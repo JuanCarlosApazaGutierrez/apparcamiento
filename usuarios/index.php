@@ -70,7 +70,7 @@ include('../layout/admin/datos_usuario_sesion.php');
                         <td>
                             <center>
                                 <a href="update.php?id=<?php echo $id; ?>" class="btn btn-success">Editar</a>
-                                <a href="delete.php?id=<?php echo $id; ?>" class="btn btn-danger">Borrar</a>
+                                <a href="delete.php?id=<?php echo $id; ?>" class="btn btn-danger">Activo</a>
                             </center>
                         </td>
                     </tr>

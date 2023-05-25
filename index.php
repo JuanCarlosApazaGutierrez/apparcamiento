@@ -154,7 +154,7 @@ if (!empty($_POST)) {
                 <!-- End first slide -->
                 <!-- Start second slide -->
                 <div class="da-slide">
-                    <h2>Descarga nuestra apliacion</h2>
+                    <h2>Descarga nuestra aplicacion</h2>
                     <h4>Busca espacios de una forma mas sencilla</h4>
                     <p>Te ofrecemos una aplicacion movil para que puedas encontrar los parqueos mas cercanos
                         mas facil y rapido.</p>
@@ -190,14 +190,10 @@ if (!empty($_POST)) {
         <div class="container">
             <!-- Start title section -->
             <div class="title">
-                <h1>¿Quiénes somos nosotros?</h1>
+                <h1>¿Quiénes somos?</h1>
                 <!-- Section's title goes here -->
                 <p>
-                    Apparcamiento es una empresa boliviana dedicada a proporcionar soluciones de estacionamiento eficientes en La Paz 
-                    y otras ciudades cercanas. Ofrecemos un sistema de control de espacios para múltiples estacionamientos, 
-                    así como una aplicación que permite a los usuarios reservar espacios de estacionamiento y encontrarlos a través de GPS. Nos esforzamos 
-                    por utilizar tecnologías avanzadas y ofrecer un servicio de calidad para garantizar una experiencia de usuario satisfactoria.
-                     Nuestro objetivo es expandirnos a más ciudades de Bolivia en el futuro cercano para satisfacer las necesidades de estacionamiento de más personas.
+                Apparcamiento ofrece soluciones de estacionamiento eficientes en La Paz y ciudades cercanas mediante un sistema de control de espacios y una aplicación con GPS para reservar y encontrar espacios. Buscamos expandirnos a más ciudades de Bolivia para satisfacer más necesidades de estacionamiento.
                     <br></br><b>
                     ¡Buscar donde estacionarte ya no será un problema!</b>
                     
@@ -403,9 +399,9 @@ if (!empty($_POST)) {
             </div>
             <div class="container">
                 <div class="span9 center contact-info">
-                    <p>
+                    <h3>
                         Nuestras oficinas principales están ubicadas en La Paz,
-                        Bolivia.</p>
+                        Bolivia.</h3>
                       <div class="contact_nav">
                         
                         <a href="">
@@ -421,6 +417,7 @@ if (!empty($_POST)) {
                           </span>
                         </a>
                       </div>
+                      
                 </div>
                 <div class="row-fluid centered">
                     <ul class="social">
@@ -462,8 +459,8 @@ if (!empty($_POST)) {
     <!-- Contact section edn -->
     <!-- Footer section start -->
     <div class="footer">
-        <p>&copy; 2013 Theme by <a href="http://www.graphberry.com">GraphBerry</a>, <a
-                href="http://goo.gl/NM84K2">Documentation</a></p>
+        <p>&copy; 2023 Proyecto en desarrollo <a href="">Apparcamiento</a>, <a
+                href="">Documentacion</a></p>
     </div>
     <!-- Footer section end -->
     <!-- ScrollUp button start -->
@@ -484,7 +481,7 @@ if (!empty($_POST)) {
     <script type="text/javascript" src="js/jquery.inview.js"></script>
     <!-- Load google maps api and call initializeMap function defined in app.js -->
     <script async="" defer="" type="text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script>
+        <!-- src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initializeMap"></script> -->
     <!-- css3-mediaqueries.js for IE8 or older -->
     <!--[if lt IE 9]>
             <script src="js/respond.min.js"></script>

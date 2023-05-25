@@ -52,7 +52,7 @@ include('../layout/admin/datos_usuario_sesion.php');
                                     <input type="text" class="form-control" id="password_user" value="<?php echo $password_user;?>" disabled>
                                 </div>
                                 <div class="form-group">
-                                    <button class="btn btn-danger" id="btn_borrar">Borrar</button>
+                                    <button class="btn btn-danger" id="btn_borrar">Activo</button>
                                     <a href="<?php echo $URL;?>/usuarios/" class="btn btn-default">Cancelar</a>
                                 </div>
                                 <div id="respuesta">
